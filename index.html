@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</head>
+
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <a href="#" class="logo"> <span>Mystery </span>Rooms </a>
+    
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#missions">Missions</a>
+        <a href="#game">The Game</a>
+        <a href="#locations">Locations</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="login-btn">
+        <button class="btn">Booking</button>
+        <i class="fa fa-book"></i>
+    </div>
+
+</header> 
+    
+<div class="login-form-container">
+
+    <span id="close-login-form" class="fas fa-times"></span>
+
+    <form action="">
+        <h3>User Booking</h3>
+        <input type="name" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <!--<p> forget your password <a href="#">click here</a> </p>-->
+        <input type="submit" value="book" class="btn">
+        <p>Pay</p>
+        <div class="buttons">
+            <a href="#" class="btn"> Online </a>
+            <a href="#" class="btn"> In Cash </a>
+        </div>
+        <!--<p> don't have an account <a href="#">create one</a> </p>-->
+    </form>
+
+</div>
+
+<section class="home" id="home">
+
+    <h3 data-speed="-2" class="home-parallax">Find Your Adventure</h3>
+    <p>A REAL LIFE ESCAPE EXPERIENCE</p>
+
+    <img data-speed="5" class="home-parallax" src="image/abc.jpg" alt="">
+
+    <a data-speed="7" href="#" class="btn home-parallax">Explore Missions</a>
+
+</section>
+
+<section class="icons-container">
+
+    <div class="icons">
+        <i class="fas fa-user-secret"></i>
+        <div class="content">
+            <h3>5</h3>
+            <p>missions</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+            <h3>7</h3>
+            <p>branches</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+            <h3>2k+</h3>
+            <p>happy customers</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="missions" id="missions">
+
+    <h1 class="heading"> <span>Missions</span> </h1>
+
+    <div class="swiper missions-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/bb.jpg" alt="">
+                <div class="content">
+                    <h3>The Hurt Locker</h3>
+                    <!--<div class="price"> <span>price : </span>  </div>-->
+                    <p>
+                        Easy
+                        <span class="fas fa-circle"></span> High Success Rate
+                        <span class="fas fa-circle"></span> 2-8 Players
+                    </p>
+                    <a href="#" class="btn">Book</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/cc.jpg" alt="">
+                <div class="content">
+                    <h3>Lockout</h3>
+                    <p>
+                        Medium
+                        <span class="fas fa-circle"></span> Medium Success Rate
+                        <span class="fas fa-circle"></span> 2-8 Players
+                    </p>
+                    <a href="#" class="btn">Book</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/aa.jpg" alt="">
+                <div class="content">
+                    <h3>Abduction</h3>
+                    
+                    <p>
+                        Medium
+                        <span class="fas fa-circle"></span> Low Success Rate
+                        <span class="fas fa-circle"></span> 2-8 Players
+                    </p>
+                    <a href="#" class="btn">Book</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ee.jpg" alt="">
+                <div class="content">
+                    <h3>Cabin In The Woods</h3>
+                    
+                    <p>
+                        Difficult
+                        <span class="fas fa-circle"></span> Low Success Rate
+                        <span class="fas fa-circle"></span> 2-8 Players
+                    </p>
+                    <a href="#" class="btn">Book</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/ff.jpg" alt="">
+                <div class="content">
+                    <h3>A Kon Of Kohinoor</h3>
+                    
+                    <p>
+                        
+                        Diffcult
+                        <span class="fas fa-circle"></span> Medium Success Rate
+                        <span class="fas fa-circle"></span> 2-8 Players
+                    </p>
+                    <a href="#" class="btn">Book</a>
+                </div>
+      
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="game" id="game">
+
+    <h1 class="heading"> <span>The Game</span> </h1>
+    <p>Mystery Rooms is a challenging race against the clock where the sole motive is to get yourself out of a theme based room before time kicks you out! Imagine being locked in a thrill space with your team and you have exact 60 minutes to use logic, sohm puzzles, find hints, and prove the power of teamwork to pave your path to freedom. Its as easy as its hard, everything you need to escape is inside the room waiting to meet your eyes! Just analyse, interpret and conclude!
+       
+        <br><br>This unique adventure is formulated on the super hit "Room Escape games rocking the net all over the world. Starting in Japan, over 10,000,000 participants have played this game in China, Hong Kong, Taiwan, Singapore, Europe and the United States. We take pride in bringing this extraordinary liveescape game experience now in your town!! 
+       
+        <br><br>The concept is very unique and thrilling, but not at all dangerous and it does not contain any horror element. It requires no physical exertion and is suitable for ages 10-77. It is an exciting team-building activity for corporates and a fulfilling fun experience for couples, friends and families.</p>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-user-friends"></i>
+            <h3>Family and Friends</h3>
+            <p>Want to spend some memorable time with your loved ones? Bring your best buddies or your family to experience this refreshing room escape adventure. We present you fiendish games that will need all your combined skill & courage! Play as a team of 2-8 players.</p>
+            <a href="#" class="btn"> Details</a>
+        </div>
+        <div class="box">
+            <i class="fas fa-user-tie"></i>
+            <h3>Corporate Teams</h3>
+            <p>Need some team building for your company or department? The Mystery Rooms experience boosts positive attitude and nurtures problem solving skills of each of the players while it unites them to work as an efficient team in order to escape the room in time!</p>
+            <a href="#" class="btn"> Details</a>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Tourists</h3>
+            <p>Be sure to include this unique international experience in your itenary when travelling to India and we guarantee you the best 1 hour of your stay. Come visit this latest attraction and exercise your brain in a cool place! A cup of coffee and some friends wait for you here!</p>
+            <a href="#" class="btn"> Details</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="locations" id="locations">
+
+    <h1 class="heading"> <span>Locations</span> </h1>
+
+    <div class="swiper locations-slider">
+
+       <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="image/surat1.png" alt="">
+                <div class="content">
+                    <h3>Surat</h3>
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/mumbai1.png" alt="">
+                <div class="content">
+                    <h3>Mumbai</h3>
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/kolkata1.png" alt="">
+                <div class="content">
+                    <h3>Kolkata</h3>
+                   
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/hyderabad1.png" alt="">
+                <div class="content">
+                    <h3>Hyderabad</h3>
+                   
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/delhi1.png" alt="">
+                <div class="content">
+                    <h3>Delhi</h3>
+                   
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/jaipur1.png" alt="">
+                <div class="content">
+                    <h3>Jaipur</h3>
+                   
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="image/goa1.png" alt="">
+                <div class="content">
+                    <h3>Goa</h3>
+                   
+                    <a href="#" class="btn">Visit</a>
+                </div>
+            </div>
+
+       </div>
+
+       <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="events">
+    
+    <h3>subscribe for latest events</h3>
+    <p>A Kickass Adventure Initiative</p>
+
+   <form action="">
+        <input type="email" placeholder="enter your email">
+        <input type="submit" value="subscribe" class="btn">
+   </form>
+
+</section>
+
+<section class="reviews" id="reviews">
+
+    <h1 class="heading"> Customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                
+                <div class="content">
+                    <p>Had an amazing experience, would recommend for people looking for fun in group.</p>
+                    <h3>Prachi Desai</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                
+                <div class="content">
+                    <p>Had fun, wish they would increase time so that we can complete the mystery without paying extra for it.</p>
+                    <h3>Rick Davidson</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                
+                <div class="content">
+                    <p>Too difficult, might be good for young and enthusiastic people.</p>
+                    <h3>Anil Kumar</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                
+                <div class="content">
+                    <p>The mystery was too good, out of box thinking was required and that made it worth paying the money.</p>
+                    <h3>Anu Mehta</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                
+                <div class="content">
+                    <p>Would recommand to solve the abduction mystery, the investigation felt so real in that.</p>
+                    <h3>Mahi Oberoi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"><span>contact</span> us</h1>
+
+    <div class="row">
+
+        <form action="" onsubmit="sendEmail(); reset(); return false;">
+            <h3>Be in touch</h3>
+            
+            <input type="text" id="name" placeholder=" Your Name" >
+            <input type="email" id="email" placeholder="Your Email" >
+            <input type="tel" id="tel" placeholder="Subject" >
+            <textarea id="message" id="message" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Surat</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Mumbai </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Kolkata </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Delhi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Jaipur </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Goa </a>
+        </div>
+
+        <div class="box">
+            <h3>top links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> missions </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> the game </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> locations </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> events </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +916789765432 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +917654334568 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> mysticroom@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> delhi, india - 411067 </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+    </div>
+
+    <div class="credit"> created by ms. anusha karwa | all rights reserved </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
